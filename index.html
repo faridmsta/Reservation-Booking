@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/stylecalendar.css">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <div class="all_wrapper straff ">
+            <div class="all_steps">
+                <div class="step step1 onstep">
+                    <span class="circle">1</span>
+                    <span class="checked hide"><i class="fa-solid fa-check"></i></span>
+                    <p  >Staff</p>
+                </div>
+                <div class="step step1">
+                    <span class="circle">2</span>
+                    <p>Service</p>
+                </div>
+                <div class="step step1">
+                    <span class="circle">3</span>
+                    <p>Date & Time</p>
+                </div>
+                <div class="step step1">
+                    <span class="circle">4</span>
+                    <p>Confirmation</p>
+                </div>
+            </div>
+            <div class="all_contend">
+                <div class="head">
+                    <h2>Select Stuff</h2>
+                    <i class="fa-solid fa-xmark"></i>
+                </div>
+                <div class="contend">
+                    <div class="doctors_wrapper">
+                        <div class="doctor">
+                            <img src="./assets/img/doctorAlex.jpeg" alt="doctor pp">
+                            <div class="about_doctor">
+                                <h2>Alex Rosetta</h2>
+                                <p>alexrosette@gmail.com</p>
+                            </div>
+                        </div>
+                        <div class="doctor">
+                            <img src="./assets/img/Doctor Maria.jpg" alt="doctor pp">
+                            <div class="about_doctor">
+                                <h2>Maria July</h2>
+                                <p>mariajuly@gmail.com</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div style="display: flex; justify-content: end;" class="end">
+                    <div class="buttons">
+
+                        <button onclick="nextprt(0)" class="next">next</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+<!---------------------------------------------------------------------------------------------------------------------->
+
+
+
+        <div class="all_wrapper service hide">
+            <div class="all_steps">
+                <div class="step step1">
+                    <span class="circle hide">1</span>
+                    <span class="checked"><i class="fa-solid fa-check"></i></span>
+                    <p>Staff</p>
+                </div>
+                <div class="step step1 onstep">
+                    <span class="circle">2</span>
+                    <p>Service</p>
+                </div>
+                <div class="step step1 ">
+                    <span class="circle">3</span>
+                    <p>Date & Time</p>
+                </div>
+                <div class="step step1">
+                    <span class="circle">4</span>
+                    <p>Confirmation</p>
+                </div>
+            </div>
+            <div class="all_contend">
+                <div class="head">
+                    <h2>Select Service</h2>
+                    <i class="fa-solid fa-xmark"></i>
+                </div>
+                <div class="contend">
+                    <div class="services_wrapper">
+                        <div class="service">
+                            <img src="./assets/img/oralhygenie.jpg" alt="service pp">
+                            <div class="about_service">
+                                <div class="about_service_part1">
+                                    <h2>Oral hygiene</h2>
+                                    <p>1 hour</p>
+                                </div>
+                                <h2>50.00$</h2>
+                            </div>
+                        </div>
+                        <div class="service">
+                            <img src="./assets/img/implant.png" alt="service pp">
+                            <div class="about_service">
+                                <div class="about_service_part1">
+                                    <h2>Implants</h2>
+                                    <p>1 hour 30 minutes</p>
+                                </div>
+                                <h2>120.00$</h2>
+                            </div>
+                        </div>
+                        <div class="service">
+                            <img src="./assets/img/analysis.jpg" alt="service pp">
+                            <div class="about_service">
+                                <div class="about_service_part1">
+                                    <h2>Analysis</h2>
+                                    <p>2 hour</p>
+                                </div>
+                                <h2>160.00$</h2>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="buttons">
+                    <button onclick="prevprt(1)" class="back">back</button>
+                    <button onclick="nextprt(1)" class="next">next</button>
+                </div>
+            </div>
+        </div>
+        <!---------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+
+        <div class="all_wrapper date hide">
+            <div class="all_steps">
+                <div class="step step1 ">
+                    <span class="circle hide">1</span>
+                    <span class="checked "><i class="fa-solid fa-check"></i></span>
+                    <p>Staff</p>
+                </div>
+                <div class="step step1 ">
+                    <span class="circle hide">2</span>
+                    <span class="checked"><i class="fa-solid fa-check"></i></span>
+                    <p>Service</p>
+                </div>
+                <div class="step step1 onstep">
+                    <span class="circle">3</span>
+                    <p>Date & Time</p>
+                </div>
+                <div class="step step1">
+                    <span class="circle">4</span>
+                    <p>Confirmation</p>
+                </div>
+            </div>
+            <div class="all_contend">
+                <div class="head">
+                    <h2>Select Date & Time</h2>
+                    <i class="fa-solid fa-xmark"></i>
+                </div>
+                <div class="contend">
+                    <div class="contend-new">
+                        <div class="calendar_wrapper">
+                            <div class="calendar_head">
+                                <div class="skip_icons">
+                                    <i onclick="prev()" class="fa-solid fa-chevron-left"></i>
+                                </div>
+                                <div class="month_year">
+
+                                </div>
+                                <div class="skip_icons">
+                                    <i onclick="next()" class="fa-solid fa-chevron-right"></i>
+                                </div>
+                            </div>
+                            <div class="calendar_body">
+                                <ul class="week_days">
+                                    <li>Sun</li>
+                                    <li>Mon</li>
+                                    <li>Tue</li>
+                                    <li>Wed</li>
+                                    <li>Thu</li>
+                                    <li>Fri</li>
+                                    <li>Sat</li>
+                                </ul>
+                                <ul class="days">
+
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="day-times">
+                            <div class="day-timer-head">
+                                Time
+                            </div>
+                            <div class="times ">
+                                <div onclick="times_hover(0)" class="time hide"> 9:00-9:30</div>
+                                <div onclick="times_hover(1)"  class="time hide">9:30-10:00</div>
+                                <div onclick="times_hover(2)"  class="time hide">10:00-10:30</div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="buttons">
+                    <button onclick="prevprt(2)" class="back">back</button>
+                    <button onclick="nextprt(2)" class="next">next</button>
+                </div>
+            </div>
+        </div>
+        </div>
+        <!-- --------------------------- -->
+
+        <div class="all_wrapper confirmation hide">
+            <div class="all_steps">
+                <div class="step step1 ">
+                    <span class="circle hide">1</span>
+                    <span class="checked "><i class="fa-solid fa-check"></i></span>
+                    <p  >Staff</p>
+                </div>
+                <div class="step step1 ">
+                    <span class="circle hide">2</span>
+                    <span class="checked"><i class="fa-solid fa-check"></i></span>
+                    <p>Service</p>
+                </div>
+                <div class="step step1 ">
+                    <span class="circle hide">3</span>
+                    <span class="checked"><i class="fa-solid fa-check"></i></span>
+                    <p>Date & Time</p>
+                </div>
+                <div class="step step1 onstep">
+                    <span class="circle">4</span>
+                    <p>Confirmation</p>
+                </div>
+            </div>
+            <div class="all_contend">
+                <div class="head">
+                    <h2>Select Stuff</h2>
+                    <i class="fa-solid fa-xmark"></i>
+                </div>
+                <div class="contend">
+                    <form action="">
+                        <div class="inputs">
+                            <label for="name">First name*</label>
+                            <input id="name" type="text" required>
+                        </div>
+                        <div class="inputs">
+                            <label for="lastname">Last name*</label>
+                            <input id="lastname" type="text" required>
+                        </div>
+                        <div class="inputs">
+                            <label for="mail">E-mail*</label>
+                            <input id="mail" type="email" required>
+                        </div>
+                        <div class="inputs">
+                            <label for="phone">Phone</label>
+                            <input id="phone" type="tel" required>
+                        </div>
+                    </form>
+                    <div class="notepart">
+                        <h2>Note</h2>
+                        <div class="note">
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="buttons">
+                    <button onclick="prevprt(3)" class="back">back</button>
+                    <button onclick="confirm()" class="next">Confirmation booking</button>
+                </div>
+            </div>
+        </div>
+
+        <div id="confirmation">
+            Comfirmation succesfully compleated!
+        </div>
+
+        <div class="report">
+            <i class="fa-solid fa-circle-info"></i> <p>Input required infos</p>
+        </div>
+
+    </main>
+
+
+    <script src="./assets/js/script.js"></script>
+</body>
+
+</html>
